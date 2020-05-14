@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/html" href="styles.css">
+</head>
+
+<body>
+    <div name="BookShelf">
+        <h4 class="heading"> Book Shelf</h4>
+        <div><button  id="listView" value=true onclick="changeView(event)">ListView</button></div>
+        <h3>Currently Reading</h3>
+
+        <div id="currentlyReading" class="flex-container">
+        </div>
+
+        <h3>Want to read</h3>
+        <div id="wantToRead" class="flex-container">
+        </div>
+
+        <h3>Read Done</h3>
+        <div id="readDone" class="flex-container">
+        </div>
+
+        <div id="temp" class="flex-container">
+        </div>
+
+        <div class='alignRight'>
+            <a href="bookStore.html"> <button class="glyphicon glyphicon-plus plusStyle"></button></a>
+        </div>
+    </div>
+    <script src="/bundle.js"></script>
+</body>
+
+</html>

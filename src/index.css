@@ -1,0 +1,152 @@
+*{
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 50%;
+    height: 2.5em;
+    font-size: 1.1em;
+    border: 0.1em solid rgba(89, 238, 156, 0.712);
+    font-family: 'Muli', sans-serif;
+}
+
+.glyphiconStyle {
+    width: 1.65em;
+    height: 1.65em;
+    padding-top: 0.2em;
+    top: 0.15em;
+    font-size: x-large;
+    background-color: rgba(27, 230, 78, 0.712);
+    color: white;
+    align-content: center;
+}
+
+.heading {
+    background-color: rgba(27, 230, 78, 0.712);
+    width: 100%;
+    height: 1.7em;
+    padding: 0.3em 0em 0.4em 0em;
+    align-self: center;
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 0.1em solid whitesmoke;
+    padding-left: 0.7em;
+    padding-top: 0.5em;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+select:focus>option:checked {
+    background-color: blue;
+    color: white
+}
+
+.dropdown {
+    position: relative;
+    bottom: -9em;
+    left: -1.5em;
+    border-radius: 0.7em;
+    font-size: 1.1em;
+    width: 1.4em;
+    height: 1.4em;
+    color: whitesmoke;
+    background-color: rgba(27, 230, 78, 0.712);
+    text-align: center;
+}
+
+.divStyle{
+    display:block;
+}
+
+.plusStyle{
+    position: relative;
+    bottom: 0.5em;
+    right: 1.5em;
+    color: white;
+    background-color: rgba(27, 230, 78, 0.712);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1.25em;
+    font-size: 1.5em;
+    border: rgba(27, 230, 78, 0.712);
+}
+.backnavStyle
+{
+    color: lightgrey;
+    background-color: whitesmoke;
+    width: 1.75em;
+    height: 1.75em;
+    border-radius: 1em;
+    text-align: center;
+    padding-top: 0.3em;
+    font-size: 2em;
+    top: 0.5em;
+    left: 0.2em;
+}
+
+option {
+    background-color: whitesmoke;
+    color: black
+}
+
+img {
+    padding-top: 1em;
+    width: 14em;
+    height: 22em;
+}
+
+.notAvailable {
+    width: 50%;
+    background-color: whitesmoke;
+    margin-top: 5%;
+}
+
+.hide {
+    display: none;
+}
+
+.listStyle{
+    display: block;
+    border: 0.1em solid grey;
+    padding: 0.1em;
+    width: 70%;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-self: stretch;
+    margin-bottom: 0.1em;
+}
+
+.alignRight{
+    float:right;
+}
+
+button:hover{
+    background-color: rgb(63, 217, 228);  
+}
+
+span:hover{
+    background-color: rgb(63, 217, 228);  
+    color: whitesmoke;
+}
+
+button{
+    color:whitesmoke;
+    background-color: rgb(117, 117, 245);
+    border-radius: 1em;
+    float:right
+}
+
+p{
+    margin: 0em;
+}

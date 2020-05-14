@@ -1,0 +1,524 @@
+{
+  "books": {
+    "C Programming": [
+      {
+        "id": 1,
+        "title": "Introduction to C",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTZlDFxgdC7ADqm4tFJVQWEF_eB4V6SLUN6FMGzDYtTwRMh8Lb&usqp=CAU",
+        "status": "none",
+        "publisher": "Code Academy",
+        "author": "Louis st."
+      },
+      {
+        "id": 2,
+        "title": "Let Us C",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1huM0MbzveK64s26I0oW9pXaMpUQWcv1oLuRT91nQI9iBKq0y&usqp=CAU",
+        "status": "none",
+        "publisher": "Packito",
+        "author": "John Kocker"
+      },
+      {
+        "id": 3,
+        "title": "Ansi C Programming",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTS3V8pfvXPFhFffdpDpbz-YQJjwMsoOfl_vu9EjGAMrAeNwhAn&usqp=CAU",
+        "status": "none",
+        "publisher": "Manning",
+        "author": "Julian Schwinger"
+      },
+      {
+        "id": 4,
+        "title": "Practical C Programming",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwGXEGv8SbTlX8texAMS28jfqTFLBB0I1Tzctk-Fcr_hQ7MLZc&usqp=CAU",
+        "status": "none",
+        "publisher": "A Press",
+        "author": "Adam Freeman"
+      },
+      {
+        "id": 5,
+        "title": "Advanced C Programming",
+        "imageUrl": " https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxqF-ndWtyVPAF8s4jZaCmc_DMfdlNGwS2AYPi4AsuYbVyFCso&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Shyam Seshadri"
+      },
+      {
+        "id": 6,
+        "title": "Fundamentals Of C",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKF0Cl3YYVPulCorDoH9gVwhqkrIjO9GrYw70fXKsehDctuB9J&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Stoyan Stefanov"
+      }
+    ],
+    "Java Programming": [
+      {
+        "id": 7,
+        "title": "Java for Begineers",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTszIKwAFwnuqKriNniveFoDDD7xlNEa-Y7vG1Ce_Arw0TcQQB0&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Alex Banks"
+      },
+      {
+        "id": 8,
+        "title": "Java Complete Reference",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYXzinSQHWIe1v8bqoOuW9yn8HYo9SDCbRNA1kcHYb2xm75NI5&usqp=CAU",
+        "status": "none",
+        "publisher": "Packt",
+        "author": "Alex Wareel"
+      },
+      {
+        "id": 9,
+        "title": "Core Java",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAOC1yPejTlT10ugfOs1SFjptman7UmZQV40iL3IbG4MoxAByz&usqp=CAU",
+        "status": "none",
+        "publisher": "Ibas Logic",
+        "author": "Ibas Marcus"
+      },
+      {
+        "id": 10,
+        "title": "Java In Action",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZdhmtO8AaNQTKq151D6GHJhyvQWThes_lEtrSCnBmaYtFXJyh&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Adam Freeman"
+      },
+      {
+        "id": 11,
+        "title": "Let Us Java",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTXYg3K3dFCHdeEKrYv9RCcZ3W4UFiFAabHFWVuMfiruajo1TF&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Steve Prettyman"
+      },
+      {
+        "id": 12,
+        "title": "Restful Java",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvTybAlAm5iyx41maX3MRRcJw5uU43q59E517XXoT0VJnrdOFm&usqp=CAU",
+        "status": "none",
+        "publisher": "Packito",
+        "author": "Thomas Pichler"
+      }
+    ],
+    "Web Development": [
+      {
+        "id": 13,
+        "title": "Web Development",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgRBoNABkKFIo-2pEWH8dpoTtDT0ap0WAVwToFDivch_6yUcfw&usqp=CAU",
+        "status": "none",
+        "publisher": "Mcgraw Hill",
+        "author": "Stence Helmer"
+      },
+      {
+        "id": 14,
+        "title": "Java for Web Development",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRO7DtJgVp3vkSMOfCBqps-BHQio0xxLmgRQJ2LhX4mAnIx8ajb&usqp=CAU",
+        "status": "none",
+        "publisher": "Manning",
+        "author": "Sergey Zhuk"
+      },
+      {
+        "id": 15,
+        "title": "CSS For WebDevelopment",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDxRGowWEeywnGkLElaB129-U0i6J_lXWoDj1LKLDzRd4TNPSl&usqp=CAU",
+        "status": "none",
+        "publisher": "Oracle",
+        "author": "Michael"
+      },
+      {
+        "id": 16,
+        "title": "PHP for Web Development",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOBe226yCNQ_pdbMyBHDaDmGzHZCMTgscOLGvw4GtwK7H0Jg-L&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "Jerry"
+      },
+      {
+        "id": 17,
+        "title": "Mastering Javascript",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSe_gSYv76oZU4cooAlWS33VKreuY5n8_fS955Mu_bWkao2zSqZ&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "Michael Thorne"
+      },
+      {
+        "id": 18,
+        "title": "Fundamentals For WebDevelopment",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3MN3qJt0G6RYv-tz_Xe_JZsVIGP8QVSxwjG1jrCYHNQyVgdzd&usqp=CAU",
+        "status": "none",
+        "publisher": "Technical Publications",
+        "author": "A.P.Godse"
+      }
+    ],
+    "Angular": [
+      {
+        "id": 19,
+        "title": "Angular For Begineers",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSDyBx9Pm2EwYaSkrgyqNYmdTA4YbD4BnY7xGB59Wjrh_GEYBf&usqp=CAU",
+        "status": "none",
+        "publisher": "Code Academy",
+        "author": "Louis st."
+      },
+      {
+        "id": 20,
+        "title": "Angular 7 By Example",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-kGMldxOzAfjrgLx9voWPQAgNCWWeUTJKV_Yvs6vxDCdH4R1E&usqp=CAU",
+        "status": "none",
+        "publisher": "Packito",
+        "author": "John Kocker"
+      },
+      {
+        "id": 21,
+        "title": "Angular JS in Action",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKK9tLOorp9ti-WSHywcgCZViixqtEG6p-OjKlQP8RFAAegYbq&usqp=CAU",
+        "status": "none",
+        "publisher": "Manning",
+        "author": "Julian Schwinger"
+      },
+      {
+        "id": 22,
+        "title": "Angular Pro",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0uW2oKXg8-dm5gxRzErd_VniXPkA_Y3Pf9uHPVKQIN5496_ds&usqp=CAU",
+        "status": "none",
+        "publisher": "A Press",
+        "author": "Adam Freeman"
+      },
+      {
+        "id": 23,
+        "title": "Angular Up Running",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsOUfBD-Imb3W_fjRYB4D3IjrrOSmKIOnJxKM-8Dg2AdiXt9vb&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Shyam Seshadri"
+      }
+    ],
+    "React": [
+      {
+        "id": 24,
+        "title": "React Up Running",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbpS6Cl162SPSpJilGB4oj3FBjnozpUPsOmEx7_XsPe996Ud4A&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Stoyan Stefanov"
+      },
+      {
+        "id": 25,
+        "title": "Learning React",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTE-SoOv76XSPd6J9FR41yeBmfDawp1pp4yCfGA8-5XUKU_B0qH&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Alex Banks"
+      },
+      {
+        "id": 26,
+        "title": "React Native",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3NFD0QmvnCjBdPm8ZbK8XFhbu_jFwZu8xjIMMhZEo6rRGIgJe&usqp=CAU",
+        "status": "none",
+        "publisher": "Packt",
+        "author": "Alex Wareel"
+      },
+      {
+        "id": 27,
+        "title": "Learn to Conquer React",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSR617YV7ZwdA16yytNjEFhzfXgGlvaw8ZPiNpJEVzcBxPL4-hx&usqp=CAU",
+        "status": "none",
+        "publisher": "Ibas Logic",
+        "author": "Ibas Marcus"
+      },
+      {
+        "id": 28,
+        "title": "React Pro 16",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBoWjpKOEvCLCj2_MHHbkhRFzqWIAc1rGzd6o0hIyJKoP_UtGT&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Adam Freeman"
+      }
+    ],
+    "PHP": [
+      {
+        "id": 29,
+        "title": "Learn PHP 7",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSr_QAjSDb77tuRqcYzd2lu9xENIMEkSysjowUv3QF8EY3bpxxZ&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Steve Prettyman"
+      },
+      {
+        "id": 30,
+        "title": "PHP7 From Scratch",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCbAcP-KUikTnMKeFy5DsRmBgTxJss5JldgQMaWtfQ6GiISB5F&usqp=CAU",
+        "status": "none",
+        "publisher": "Packito",
+        "author": "Thomas Pichler"
+      },
+      {
+        "id": 31,
+        "title": "Complete Reference PHP",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT34ubO6xhqAqKQ40JPiHZRWX1sSMT3sqY7OBJQSeTq9co2o-Nv&usqp=CAU",
+        "status": "none",
+        "publisher": "Mcgraw Hill",
+        "author": "Stence Helmer"
+      },
+      {
+        "id": 32,
+        "title": "Event Driven PHP",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgQRrhMFQ8Me0qvZ4DhjauZhtLs1wUB_3W2AsbBINlH3gFr1BE&usqp=CAU",
+        "status": "none",
+        "publisher": "Manning",
+        "author": "Sergey Zhuk"
+      }
+    ],
+    "Sql": [
+      {
+        "id": 33,
+        "title": "Sql Programming",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSz-LankdNPO9S1QuESecIFXYO2TCm97AO6U3zwKQF6zBp1MeuZ&usqp=CAU",
+        "status": "none",
+        "publisher": "Oracle",
+        "author": "Michael"
+      },
+      {
+        "id": 34,
+        "title": "Beginning Sql Queries",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUl70OCQKP9TfN3Nrt5mKamZjASkvIxzZAKWfaNG2_TuacArjq&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Clare Churcher"
+      },
+      {
+        "id": 35,
+        "title": "Sql Complete Reference",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwXoqPsnmdzGmSGwNA5GAVBsIDzudWzsxQGyiwylUFAZtOj5dK&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "Jerry"
+      },
+      {
+        "id": 36,
+        "title": "Beginning PL/SQL",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQChvLFvsZciAMzqX1hdnsYPLSJww8ToUwycRfsGymTFbhs0O-5&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Donald.J.Bales"
+      },
+      {
+        "id": 37,
+        "title": "Sql For Begineers",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA3PyPE658MDHsrKBtry2BohjX72MxQqIM-oABVyDViTryq-xc&usqp=CAU",
+        "status": "none",
+        "publisher": "APress",
+        "author": "Steve Tales"
+      }
+    ],
+    "Python Programming": [
+      {
+        "id": 38,
+        "title": "Programming Python",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtfW1fyeTl0YMOo0zA530WcYUZwC3H12-IUSEAqu6yhEagZeqo&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Mark Lutz"
+      },
+      {
+        "id": 39,
+        "title": "Head First Python",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTM7snv82dCQFPEliV31guKv326IY9XZOvgss_fQn-IgGtUmsEB&usqp=CAU",
+        "status": "none",
+        "publisher": "OReilly",
+        "author": "Paul Barry"
+      },
+      {
+        "id": 40,
+        "title": "Python For Begineers",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-7pbuC5MEmJqQiV5VLS6PCJ_CYVLONEjwFAEbP3XKKcm-UhwS&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "SivaKumar Munasami"
+      }
+    ],
+    "Computer Organization": [
+      {
+        "id": 41,
+        "title": "Computer Organization Assembly",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSS9MC5iFVAK4hFhx447NwnICiIgQGE1pMf0ylSUqYeao_oRNjv&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "Michael Thorne"
+      },
+      {
+        "id": 42,
+        "title": "Advanced Computer Organization",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwmkau7QJqCKFFk6z98AUpntDMI6pcCYC6Lkg63swTZOS21PJ4&usqp=CAU",
+        "status": "none",
+        "publisher": "Ikvindarpal Singh",
+        "author": "Michael Thorne"
+      },
+      {
+        "id": 43,
+        "title": "Computer Organization",
+        "imageUrl": "https://cdn01.sapnaonline.com/bk_images/449/9788128019449.jpg",
+        "status": "none",
+        "publisher": "Sapna",
+        "author": "K.Shashidar"
+      },
+      {
+        "id": 44,
+        "title": "Computer Organization & Architecture",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9VMA_DOsZTzlrp6VZMIPEykSGFV1gXKDI5RN35fBHsm0vmA24&usqp=CAU",
+        "status": "none",
+        "publisher": "Technical Publications",
+        "author": "A.P.Godse"
+      }
+    ],
+    "Micro Processor": [
+      {
+        "id": 45,
+        "title": "Micro Processors and Controllers",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9VMA_DOsZTzlrp6VZMIPEykSGFV1gXKDI5RN35fBHsm0vmA24&usqp=CAU",
+        "status": "none",
+        "publisher": "Charulatha Publications",
+        "author": "P.S.Manoharan"
+      },
+      {
+        "id": 46,
+        "title": "Micro Processors 8085",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5ZrjPUaWiaLNQ2X9DPHyrR9GamxVRhRf21nIFf_jZ6jrNe_0k&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "Anil Swarnakar"
+      },
+      {
+        "id": 47,
+        "title": "8086 Micro Processor",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGsFNaX729_oN5Srw5lIheXvsB2Q_4bf44Sgu_Kox83ja0Vaw0&usqp=CAU",
+        "status": "none",
+        "publisher": "Education India",
+        "author": "Arun Rana"
+      }
+    ],
+    "Software Testing": [
+      {
+        "id": 48,
+        "title": "Trends in Software Testing",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSFVPGl-F42G6TZxs537hrxh19hNBz-fEcXSmDpXQCOOYPtuEB&usqp=CAU",
+        "status": "none",
+        "publisher": "Springer",
+        "author": "Arun Kumar"
+      },
+      {
+        "id": 49,
+        "title": "Future of Software QA",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYlZGJFkgU4GqztTACca76u8voArOMaBfa21SdSpOhssRVXmiz&usqp=CAU",
+        "status": "none",
+        "publisher": "Springer",
+        "author": "Stephan G"
+      },
+      {
+        "id": 50,
+        "title": "Software Testing Techniques",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSV2cOVv5ucQXBXA5yTgevF4DOIuss4UcJM4jpSXvAqiht7bhaI&usqp=CAU",
+        "status": "none",
+        "publisher": "McGraw Hill",
+        "author": "Boris Beizer"
+      }
+    ]
+  },
+  "selectedBooks": [
+    {
+      "id": 33,
+      "title": "Sql Programming",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSz-LankdNPO9S1QuESecIFXYO2TCm97AO6U3zwKQF6zBp1MeuZ&usqp=CAU",
+      "status": "currentlyReading",
+      "publisher": "Oracle",
+      "author": "Michael"
+    },
+    {
+      "id": 21,
+      "title": "Angular JS in Action",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKK9tLOorp9ti-WSHywcgCZViixqtEG6p-OjKlQP8RFAAegYbq&usqp=CAU",
+      "status": "currentlyReading",
+      "publisher": "Manning",
+      "author": "Julian Schwinger"
+    },
+    {
+      "id": 38,
+      "title": "Programming Python",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtfW1fyeTl0YMOo0zA530WcYUZwC3H12-IUSEAqu6yhEagZeqo&usqp=CAU",
+      "status": "wantToRead",
+      "publisher": "OReilly",
+      "author": "Mark Lutz"
+    },
+    {
+      "id": 45,
+      "title": "Micro Processors and Controllers",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9VMA_DOsZTzlrp6VZMIPEykSGFV1gXKDI5RN35fBHsm0vmA24&usqp=CAU",
+      "status": "currentlyReading",
+      "publisher": "Charulatha Publications",
+      "author": "P.S.Manoharan"
+    },
+    {
+      "id": 22,
+      "title": "Angular Pro",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0uW2oKXg8-dm5gxRzErd_VniXPkA_Y3Pf9uHPVKQIN5496_ds&usqp=CAU",
+      "status": "readDone",
+      "publisher": "A Press",
+      "author": "Adam Freeman"
+    },
+    {
+      "id": 23,
+      "title": "Angular Up Running",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsOUfBD-Imb3W_fjRYB4D3IjrrOSmKIOnJxKM-8Dg2AdiXt9vb&usqp=CAU",
+      "status": "wantToRead",
+      "publisher": "OReilly",
+      "author": "Shyam Seshadri"
+    },
+    {
+      "id": 24,
+      "title": "React Up Running",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbpS6Cl162SPSpJilGB4oj3FBjnozpUPsOmEx7_XsPe996Ud4A&usqp=CAU",
+      "status": "wantToRead",
+      "publisher": "OReilly",
+      "author": "Stoyan Stefanov"
+    },
+    {
+      "id": 25,
+      "title": "Learning React",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTE-SoOv76XSPd6J9FR41yeBmfDawp1pp4yCfGA8-5XUKU_B0qH&usqp=CAU",
+      "status": "wantToRead",
+      "publisher": "OReilly",
+      "author": "Alex Banks"
+    },
+    {
+      "id": 26,
+      "title": "React Native",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3NFD0QmvnCjBdPm8ZbK8XFhbu_jFwZu8xjIMMhZEo6rRGIgJe&usqp=CAU",
+      "status": "readDone",
+      "publisher": "Packt",
+      "author": "Alex Wareel"
+    },
+    {
+      "id": 43,
+      "title": "Computer Organization",
+      "imageUrl": "https://cdn01.sapnaonline.com/bk_images/449/9788128019449.jpg",
+      "status": "readDone",
+      "publisher": "Sapna",
+      "author": "K.Shashidar"
+    },
+    {
+      "id": 2,
+      "title": "Let Us C",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1huM0MbzveK64s26I0oW9pXaMpUQWcv1oLuRT91nQI9iBKq0y&usqp=CAU",
+      "status": "readDone",
+      "publisher": "Packito",
+      "author": "John Kocker"
+    },
+    {
+      "id": 39,
+      "title": "Head First Python",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTM7snv82dCQFPEliV31guKv326IY9XZOvgss_fQn-IgGtUmsEB&usqp=CAU",
+      "status": "currentlyReading",
+      "publisher": "OReilly",
+      "author": "Paul Barry"
+    }
+  ]
+}

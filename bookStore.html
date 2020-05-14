@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/html" href="styles.css">
+    <title>Online Book Reading Store</title>
+
+</head>
+
+<body>
+    <a href="index.html"><span class="glyphicon glyphicon-arrow-left backnavStyle"></span></a>
+    
+    <div align="center">
+        <input name="searchText" type="text" id="searchText" autocomplete="off"
+            placeholder="Search your Book by title .." onkeypress="autoSearch()"><span
+            class="glyphicon glyphicon-search glyphiconStyle" onclick='search()'></span></input>
+        <div id="notAvailable" class="notAvailable hide">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQS4xf1LawYvaf_eyPsKyLH3VGpxTjJJtCuJ-ZqLvN3p7slUK5X&usqp=CAU" />
+            <p> Sorry,this keyword is not available we will come back to you later</p>
+        </div>
+    </div>
+
+    <div id="booksList" class="flex-container">
+    </div>
+
+    <script src="/bundle.js">
+    </script>
+</body>
+
+</html>
