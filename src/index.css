@@ -12,7 +12,7 @@ input {
 
 .glyphiconStyle {
     width: 1.65em;
-    height: 1.65em;
+    height: 1.57em;
     padding-top: 0.2em;
     top: 0.15em;
     font-size: x-large;
@@ -129,6 +129,7 @@ img {
 
 .alignRight{
     float:right;
+    border: 0px;
 }
 
 button:hover{
@@ -144,7 +145,7 @@ button{
     color:whitesmoke;
     background-color: rgb(117, 117, 245);
     border-radius: 1em;
-    float:right
+    float:right;
 }
 
 p{

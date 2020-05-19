@@ -425,14 +425,6 @@
   },
   "selectedBooks": [
     {
-      "id": 33,
-      "title": "Sql Programming",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSz-LankdNPO9S1QuESecIFXYO2TCm97AO6U3zwKQF6zBp1MeuZ&usqp=CAU",
-      "status": "currentlyReading",
-      "publisher": "Oracle",
-      "author": "Michael"
-    },
-    {
       "id": 21,
       "title": "Angular JS in Action",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKK9tLOorp9ti-WSHywcgCZViixqtEG6p-OjKlQP8RFAAegYbq&usqp=CAU",
@@ -444,7 +436,7 @@
       "id": 38,
       "title": "Programming Python",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtfW1fyeTl0YMOo0zA530WcYUZwC3H12-IUSEAqu6yhEagZeqo&usqp=CAU",
-      "status": "wantToRead",
+      "status": "readDone",
       "publisher": "OReilly",
       "author": "Mark Lutz"
     },
@@ -468,7 +460,7 @@
       "id": 23,
       "title": "Angular Up Running",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsOUfBD-Imb3W_fjRYB4D3IjrrOSmKIOnJxKM-8Dg2AdiXt9vb&usqp=CAU",
-      "status": "wantToRead",
+      "status": "currentlyReading",
       "publisher": "OReilly",
       "author": "Shyam Seshadri"
     },
@@ -492,7 +484,7 @@
       "id": 26,
       "title": "React Native",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3NFD0QmvnCjBdPm8ZbK8XFhbu_jFwZu8xjIMMhZEo6rRGIgJe&usqp=CAU",
-      "status": "readDone",
+      "status": "wantToRead",
       "publisher": "Packt",
       "author": "Alex Wareel"
     },
@@ -508,7 +500,7 @@
       "id": 2,
       "title": "Let Us C",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1huM0MbzveK64s26I0oW9pXaMpUQWcv1oLuRT91nQI9iBKq0y&usqp=CAU",
-      "status": "readDone",
+      "status": "wantToRead",
       "publisher": "Packito",
       "author": "John Kocker"
     },
@@ -516,7 +508,7 @@
       "id": 39,
       "title": "Head First Python",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTM7snv82dCQFPEliV31guKv326IY9XZOvgss_fQn-IgGtUmsEB&usqp=CAU",
-      "status": "currentlyReading",
+      "status": "readDone",
       "publisher": "OReilly",
       "author": "Paul Barry"
     }

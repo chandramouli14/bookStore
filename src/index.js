@@ -7,9 +7,9 @@ const notAvailable = document.getElementById("notAvailable");
 const currentlyReading = document.getElementById("currentlyReading");
 const wantToRead = document.getElementById("wantToRead");
 const readDone = document.getElementById("readDone");
+let listView = document.getElementById("listView");
 var bookOptions = { "empty": "Move to ..", "none": "None", "currentlyReading": "Currently Reading", "wantToRead": "Want To Read", "readDone": "Read Done" }
 const jsonHeader = { 'Content-Type': 'application/json' };
-let listView = document.getElementById("listView");
 let urls = { getbooks: "http://localhost:3000/books", selectedBooks: "http://localhost:3000/selectedBooks/" }
 
 function intialize() {
@@ -123,7 +123,6 @@ function createDropDown() {
 }
 
 function changeStatus(e) {
-    e.preventDefault();
     let id = e.target.id;
     let status = e.target.value;
     let selectedBook;
