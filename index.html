@@ -14,24 +14,69 @@
 <body>
     <div name="BookShelf">
         <h4 class="heading"> Book Shelf</h4>
-        <div><button  id="listView" value=true onclick="changeView(event)">ListView</button></div>
-        <h3>Currently Reading</h3>
-
-        <div id="currentlyReading" class="flex-container">
+        <div>
+            <button id="listView" class="btn btn-primary alignRight" value=true
+                onclick="changeView(event)">ListView</button>
+        </div>
+        <div align="center">
+            <span id="back" class="hide" onclick="home()"></span>
+            <input name="searchText" class="searchStyle" type="text" id="searchText" onfocus="this.value=''"
+                placeholder="Search your Book by title .." onkeypress="autoSearch()"><span
+                class="glyphicon glyphicon-search glyphiconStyle" onclick='search()'></span>
+            </input>
+            <div id="notAvailable" class="notAvailable hide">
+                <img style="width:100%;"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQS4xf1LawYvaf_eyPsKyLH3VGpxTjJJtCuJ-ZqLvN3p7slUK5X&usqp=CAU" />
+            </div>
         </div>
 
-        <h3>Want to read</h3>
-        <div id="wantToRead" class="flex-container">
+        <div id="searchResults" class="hide">
+            <h3>Search Results ..</h3>
+            <div id="booksList" class="flex-container">
+            </div>
         </div>
 
-        <h3>Read Done</h3>
-        <div id="readDone" class="flex-container">
+        <div id="bookStore">
+            <h3>Currently Reading</h3>
+            <div id="currentlyReading" class="flex-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+
+            <h3>Want to read</h3>
+            <div id="wantToRead" class="flex-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+
+            <h3>Read Done</h3>
+            <div id="readDone" class="flex-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <table id="tableView" class="hide">
+                        <thead>
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Author</th>
+                                <th scope="col">Publisher</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Published Date</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="bookTable">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
         <div class='alignRight'>
-            <a href="bookStore.html"> <button class="glyphicon glyphicon-plus plusStyle"></button></a>
+            <a href="addBook.html"> <button class="glyphicon glyphicon-plus plusStyle"></button></a>
         </div>
     </div>
+
     <script src="/bundle.js"></script>
 </body>
 

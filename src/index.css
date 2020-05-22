@@ -2,12 +2,15 @@
     font-family: 'Muli', Arial, Helvetica, sans-serif;
 }
 
-input {
-    width: 50%;
+.searchStyle {
+    width: 30%;
     height: 2.5em;
     font-size: 1.1em;
     border: 0.1em solid rgba(89, 238, 156, 0.712);
     font-family: 'Muli', sans-serif;
+}
+input{
+    width:100%
 }
 
 .glyphiconStyle {
@@ -46,15 +49,22 @@ h3 {
     margin-left: 20%;
 
 }
+.container{
+    margin-top:20px;
+}
 
 select:focus>option:checked {
     background-color: blue;
     color: white
 }
 
+select{
+    border:0px;
+}
+
 .dropdown {
     position: relative;
-    bottom: -9em;
+    bottom: -6em;
     left: -1.5em;
     border-radius: 0.7em;
     font-size: 1.1em;
@@ -67,6 +77,17 @@ select:focus>option:checked {
 
 .divStyle{
     display:block;
+    cursor:"grab";
+}
+.columnOne{
+    text-align: right;
+    padding-top: 0.4em;
+    margin: 0em;
+}
+.columnTwo{
+    text-align: left;
+    padding: 0em;
+    margin-bottom: 0.2em;
 }
 
 .plusStyle{
@@ -102,13 +123,12 @@ option {
 
 img {
     padding-top: 1em;
-    width: 14em;
-    height: 22em;
+    width: 10em;
+    height: 15em;
 }
 
 .notAvailable {
     width: 50%;
-    background-color: whitesmoke;
     margin-top: 5%;
 }
 
@@ -116,36 +136,14 @@ img {
     display: none;
 }
 
-.listStyle{
-    display: block;
-    border: 0.1em solid grey;
-    padding: 0.1em;
-    width: 70%;
-    flex-flow: row;
-    flex-wrap: wrap;
-    align-self: stretch;
-    margin-bottom: 0.1em;
-}
-
 .alignRight{
     float:right;
     border: 0px;
 }
 
-button:hover{
-    background-color: rgb(63, 217, 228);  
-}
-
 span:hover{
     background-color: rgb(63, 217, 228);  
     color: whitesmoke;
-}
-
-button{
-    color:whitesmoke;
-    background-color: rgb(117, 117, 245);
-    border-radius: 1em;
-    float:right;
 }
 
 p{

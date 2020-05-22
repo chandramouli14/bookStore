@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/html" href="styles.css">
+    <title>Online Book Reading Store</title>
+</head>
+
+<body>
+    <a href="index.html"><span class="glyphicon glyphicon-arrow-left backnavStyle"></span></a>
+
+    <div align="center">
+        <h2 class="text-success ">Add Your Book to a BookStore</h2>
+        <br />
+        <form class="needs-validation" id="addBook" onsubmit="addNewBook()">
+            <div class="form-group">
+                <div class="col-sm-5 columnOne">
+                    <label for="title">Book Title:</label>
+                </div>
+                <div class="col-sm-3 columnTwo">
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Enter Book Title" required />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-5 columnOne">
+                    <label for="author">Author Name:</label>
+                </div>
+                <div class="col-sm-3 columnTwo">
+                    <input type="text" class=" form-control" id="author" name="author"
+                        placeholder="Enter Author Name" required />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-5 columnOne">
+                    <label for="url">Image Url:</label>
+                </div>
+                <div class="col-sm-3 columnTwo">
+                    <input type="text" class=" form-control" id="url" name="url" placeholder="Enter image Url" required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-5 columnOne">
+                    <label for="publisher">Publisher Name:</label>
+                </div>
+                <div class="col-sm-3 columnTwo">
+                    <input type="text" class=" form-control" id="publisher" name="publisher"
+                        placeholder="Enter Publisher Name" required/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-5 columnOne">
+                    <label for="category">Category Name:</label>
+                </div>
+                <div class="col-sm-3 columnTwo">
+                    <input type="text" class=" form-control" id="category" name="category"
+                        placeholder="Enter Category Name" required />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-5 columnOne">
+                    <label for="date">Published Date:</label>
+                </div>
+                <div class="col-sm-3 columnTwo">
+                    <input type="text" class=" form-control" id="date" name="date"
+                        placeholder="Enter Published Date" required/><br />
+                </div>
+            </div><br />
+
+
+
+            <div class="form-group">
+                <div class="col-sm-7 columnOne">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    <button type="button" class="btn btn-warning mb-2" onclick="reset()">Clear</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="/bundle.js">
+    </script>
+</body>
+
+</html>
