@@ -8,6 +8,7 @@
     font-size: 1.1em;
     border: 0.1em solid rgba(89, 238, 156, 0.712);
     font-family: 'Muli', sans-serif;
+    min-width: 20em;
 }
 input{
     width:100%
@@ -39,6 +40,7 @@ h3 {
     border-bottom: 0.1em solid whitesmoke;
     padding-left: 0.7em;
     padding-top: 0.5em;
+    font-weight: bolder;
 }
 
 .flex-container {
@@ -47,7 +49,7 @@ h3 {
     justify-content: center;
     width: 60%;
     margin-left: 20%;
-
+    min-width: 30em;
 }
 .container{
     margin-top:20px;
@@ -67,7 +69,7 @@ select{
     bottom: -6em;
     left: -1.5em;
     border-radius: 0.7em;
-    font-size: 1.1em;
+    font-size: 1em;
     width: 1.4em;
     height: 1.4em;
     color: whitesmoke;
@@ -146,6 +148,11 @@ span:hover{
     color: whitesmoke;
 }
 
+.buttonStyle{
+margin:0.3em
+}
+
 p{
     margin: 0em;
+    width: 10em;
 }

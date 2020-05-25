@@ -150,10 +150,7 @@ function drop(ev) {
     if (ev.target.id == "currentlyReading" || ev.target.id == "wantToRead" || ev.target.id == "readDone") {
         let url = urls.selectedBooks + data
         updateBook(url, "PATCH", { status: ev.target.id })
-            .then(res => res.json()
-                .then(res => {
-                    intialize()
-                }))
+            .then(res => intialize())
     }
 }
 
@@ -241,10 +238,10 @@ function addNewBook() {
     selectedBook.publishedDate = publishedDate.value;
     selectedBook.status = bookStatus;
 
-    if (bookStatus === "none") {
+    if (bookStatus == "none") {
         updateBook(urls.getbooks, "POST", selectedBook)
             .then(res => window.location.href = "index.html")
-            .catch(err=>{debugger;alert("Id already exists")})
+            .catch(err => { console.logg(err); alert("Id already exists") })
     }
     else {
         updateBook(urls.selectedBooks + bookID, "PUT", selectedBook).then(res => window.location.href = "index.html")
@@ -271,10 +268,10 @@ function addRow(book) {
     status.appendChild(select);
     let actions = document.createElement("td")
     let edit = document.createElement("span")
-    edit.className = "btn btn-success glyphicon glyphicon-pencil"
+    edit.className = "btn btn-success glyphicon glyphicon-pencil buttonStyle"
     edit.onclick = editRow
     let deleteData = document.createElement("span");
-    deleteData.className = "btn btn-warning glyphicon glyphicon-trash";
+    deleteData.className = "btn btn-warning glyphicon glyphicon-trash buttonStyle";
     deleteData.onclick = deleteRow
     actions.append(edit, deleteData);
     edit.id = deleteData.id = tableRow.id = book.id;
